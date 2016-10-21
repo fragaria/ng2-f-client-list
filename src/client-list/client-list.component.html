@@ -1,0 +1,13 @@
+<h3>{{ listTitle }}</h3>
+<div class="select-box">
+  <table>
+    <tr  *ngFor='let client of clients | async'>
+      <td>{{ client.name }}</td>
+      <td>{{ client.personalIdentNumber }}</td>
+      <td>{{ client.email }}</td>
+      <td>
+        <button type="button" class="btn btn-link" (click)="selectClient(client)">{{ selectLabel }}</button>
+      </td>
+    </tr>
+  </table>
+</div>
