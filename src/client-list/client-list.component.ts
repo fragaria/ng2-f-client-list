@@ -4,7 +4,7 @@ import { Client } from 'ng2-f-client-models';
 
 @Component({
   selector: 'ng2-f-client-list',
-  template: require('./client-list.component.html')
+  templateUrl: 'client-list.component.html'
 })
 export class ClientListComponent {
   @Input() clients: Client[];
