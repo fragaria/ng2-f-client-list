@@ -1,8 +1,8 @@
-## Client models
+## Client list
 
 ### Popis
 
-Obsahuje modely pro klienta
+Obsahuje jednoduchou komponentu pro výpis klientů
 
 ### Příprava modulu
 - Udělejte si `git clone` této repozitory
